@@ -19,24 +19,19 @@
 
 <body>
 <div id="chart1" class="chart"></div>
+<div id="chart2" class="chart"></div>
+<div id="chart3" class="chart"></div>
 <script>
 var chart = document.getElementById("chart1");
 d3.json("data/iris_tree.json", function(data) {
   console.log(data['name']);
   plot_tree(data, chart2);
 });
-</script>
-
-<div id="chart2" class="chart"></div>
-<script>
 var chart = document.getElementById("chart2");
 d3.json("data/mental_health_tree.json", function(data) {
   console.log(data['name']);
   plot_tree(data, chart2);
 });
-</script>
-<div id="chart3" class="chart"></div>
-<script>
 var chart = document.getElementById("chart3");
 d3.json("data/mushroom_tree.json", function(data) {
   console.log(data['name']);
