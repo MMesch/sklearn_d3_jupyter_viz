@@ -22,20 +22,20 @@
 <div id="chart2" class="chart"></div>
 <div id="chart3" class="chart"></div>
 <script>
-var chart = document.getElementById("chart1");
+var chart1 = document.getElementById("chart1");
 d3.json("data/iris_tree.json", function(data) {
   console.log(data['name']);
-  plot_tree(data, chart2);
+  plot_tree(data, chart1);
 });
-var chart = document.getElementById("chart2");
+var chart2 = document.getElementById("chart2");
 d3.json("data/mental_health_tree.json", function(data) {
   console.log(data['name']);
   plot_tree(data, chart2);
 });
-var chart = document.getElementById("chart3");
+var chart3 = document.getElementById("chart3");
 d3.json("data/mushroom_tree.json", function(data) {
   console.log(data['name']);
-  plot_tree(data, chart2);
+  plot_tree(data, chart3);
 });
 </script>
 </body>
