@@ -109,10 +109,11 @@ var plot_tree = function(data, chart){
               .attr("y", -10)
               .style("text-anchor", "middle")
               .text(function(d) { return d.data.rule;}).call(getBB)
-              .attr('pointer-events', 'none');
+              .attr('pointer-events', 'none')
+              .attr('font-size', '12');
         path_nodes.insert("rect","text")
             .attr("x", function(d){return -d.bbox.width/2})
-            .attr("y", -20)
+            .attr("y", function(d){return -d.bbox.height})
             .attr("width", function(d){return d.bbox.width})
             .attr("height", function(d){return d.bbox.height})
             .style("fill", "white")
@@ -124,11 +125,12 @@ var plot_tree = function(data, chart){
               .attr("dy", ".35em")
               .attr("y", -10)
               .style("text-anchor", "middle")
+              .attr('font-size', '12')
               .text(function(d) { return d.data.rule;}).call(getBB)
               .attr('pointer-events', 'none');
         leaf_node.insert("rect", "text")
             .attr("x", function(d){return -d.bbox.width/2})
-            .attr("y", -20)
+            .attr("y", function(d){return -d.bbox.height})
             .attr("width", function(d){return d.bbox.width})
             .attr("height", function(d){return 50})
             .style("fill", "white")

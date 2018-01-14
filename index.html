@@ -2,24 +2,40 @@
 <meta charset="utf-8">
 
 <style>
+    @font-face {
+        font-family: Dosis;
+        src: url('https://fonts.googleapis.com/css?family=Dosis');
+    }
+
     body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Dosis, sans-serif";
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
     }
 
     .chart {
-        width: 400px;
-        height: 400px;
+        width: 800px;
+        height: 600px;
         padding: 10px;
-        border: 2px solid #ccc;
-        display: inline-block;
+        display: block;
     }
 </style>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="tree.js"></script>
 
 <body>
+<h1>Decision Trees</h1>
+<h2>Dataset 1: IRIS</h2>
 <div id="chart1" class="chart"></div>
+<h2>Dataset 2: Mental Health Dataset from Kaggle</h2>
 <div id="chart2" class="chart"></div>
+<h2>Dataset 3: Mushroom Dataset</h2>
 <div id="chart3" class="chart"></div>
 <script>
 var chart1 = document.getElementById("chart1");
