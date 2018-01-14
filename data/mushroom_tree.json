@@ -1,0 +1,132 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "children": [
+      {
+       "impurity": 0.04855288304264738,
+       "name": "node3",
+       "rule": "stalk-root_rooted is False",
+       "values": [
+        96.0,
+        3760.0
+       ]
+      },
+      {
+       "impurity": 0.04855288304264738,
+       "name": "node4",
+       "rule": "stalk-root_rooted is True",
+       "values": [
+        192.0,
+        0.0
+       ]
+      }
+     ],
+     "impurity": 0.1321689137465044,
+     "name": "node2",
+     "rule": "stalk-root_club is False",
+     "values": [
+      288.0,
+      3760.0
+     ]
+    },
+    {
+     "children": [
+      {
+       "impurity": 0.0,
+       "name": "node6",
+       "rule": "population_clustered is False",
+       "values": [
+        512.0,
+        0.0
+       ]
+      },
+      {
+       "impurity": 0.0,
+       "name": "node7",
+       "rule": "population_clustered is True",
+       "values": [
+        0.0,
+        36.0
+       ]
+      }
+     ],
+     "impurity": 0.1321689137465044,
+     "name": "node5",
+     "rule": "stalk-root_club is True",
+     "values": [
+      512.0,
+      36.0
+     ]
+    }
+   ],
+   "impurity": 0.28753197429785315,
+   "name": "node1",
+   "rule": "odor_none is False",
+   "values": [
+    800.0,
+    3796.0
+   ]
+  },
+  {
+   "children": [
+    {
+     "children": [
+      {
+       "impurity": 0.00469480968858127,
+       "name": "node10",
+       "rule": "stalk-surface-below-ring_scaly is False",
+       "values": [
+        3392.0,
+        8.0
+       ]
+      },
+      {
+       "impurity": 0.00469480968858127,
+       "name": "node11",
+       "rule": "stalk-surface-below-ring_scaly is True",
+       "values": [
+        16.0,
+        40.0
+       ]
+      }
+     ],
+     "impurity": 0.027391975308642014,
+     "name": "node9",
+     "rule": "spore-print-color_green is False",
+     "values": [
+      3408.0,
+      48.0
+     ]
+    },
+    {
+     "impurity": 0.027391975308642014,
+     "name": "node12",
+     "rule": "spore-print-color_green is True",
+     "values": [
+      0.0,
+      72.0
+     ]
+    }
+   ],
+   "impurity": 0.28753197429785315,
+   "name": "node8",
+   "rule": "odor_none is True",
+   "values": [
+    3408.0,
+    120.0
+   ]
+  }
+ ],
+ "class_names": [
+  "edible",
+  "poisonous"
+ ],
+ "name": "node0",
+ "rule": "root",
+ "values": [
+  4208.0,
+  3916.0
+ ]
+}

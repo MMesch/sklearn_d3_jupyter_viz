@@ -20,40 +20,25 @@
 <body>
 <div id="chart1" class="chart"></div>
 <script>
-var data={'children': [{'impurity': 0.0, 'values': [50.0, 0.0, 0.0],
-'name': 'node1', 'rule': 'petal_width < 0.8 '}, {'children': [{'children':
-[{'children': [{'impurity': 0.0, 'values': [0.0, 47.0, 0.0], 'name': 'node5',
-'rule': 'petal_width < 1.7 '}, {'impurity': 0.0, 'values': [0.0, 0.0, 1.0],
-'name': 'node6', 'rule': 'petal_width > 1.7 '}], 'impurity': 0.04079861111111116,
-'values': [0.0, 47.0, 1.0], 'name': 'node4', 'rule': 'petal_length < 4.9 '},
-{'children': [{'impurity': 0.0, 'values': [0.0, 0.0, 3.0], 'name': 'node8',
-'rule': 'petal_width < 1.5 '}, {'children': [{'impurity': 0.0, 'values': [0.0,
-2.0, 0.0], 'name': 'node10', 'rule': 'petal_length < 5.4 '}, {'impurity': 0.0,
-'values': [0.0, 0.0, 1.0], 'name': 'node11', 'rule': 'petal_length > 5.4 '}],
-'impurity': 0.0, 'values': [0.0, 2.0, 1.0], 'name': 'node9', 'rule':
-'petal_width > 1.5 '}], 'impurity': 0.04079861111111116, 'values': [0.0, 2.0,
-4.0], 'name': 'node7', 'rule': 'petal_length > 4.9 '}], 'impurity':
-0.16803840877914955, 'values': [0.0, 49.0, 5.0], 'name': 'node3', 'rule':
-'petal_width < 1.8 '}, {'children': [{'children': [{'impurity': 0.0, 'values':
-[0.0, 0.0, 2.0], 'name': 'node14', 'rule': 'sepal_width < 3.1 '}, {'impurity':
-0.0, 'values': [0.0, 1.0, 0.0], 'name': 'node15', 'rule':
-'sepal_width > 3.1'}], 'impurity': 0.44444444444444442,
-'values': [0.0, 1.0, 2.0], 'name':
-'node13', 'rule': 'petal_length < 4.9 '}, {'impurity': 0.44444444444444442,
-'values': [0.0, 0.0, 43.0], 'name': 'node16', 'rule': 'petal_length > 4.9 '}],
-'impurity': 0.16803840877914955, 'values': [0.0, 1.0, 45.0], 'name': 'node12',
-'rule': 'petal_width > 1.8 '}], 'impurity': 0.0, 'values': [0.0, 50.0, 50.0],
-'name': 'node2', 'rule': 'petal_width > 0.8 '}], 'class_names': ['setosa',
-'versicolor', 'virginica'], 'values': [50.0, 50.0, 50.0], 'name': 'node0',
-'rule': 'root'};
 var chart = document.getElementById("chart1");
-plot_tree(data, chart1);
+d3.json("data/iris_tree.json", function(data) {
+  console.log(data['name']);
+  plot_tree(data, chart2);
+});
 </script>
 
 <div id="chart2" class="chart"></div>
 <script>
 var chart = document.getElementById("chart2");
-d3.json("mental_health_tree.json", function(data) {
+d3.json("data/mental_health_tree.json", function(data) {
+  console.log(data['name']);
+  plot_tree(data, chart2);
+});
+</script>
+<div id="chart3" class="chart"></div>
+<script>
+var chart = document.getElementById("chart3");
+d3.json("data/mushroom_tree.json", function(data) {
   console.log(data['name']);
   plot_tree(data, chart2);
 });
