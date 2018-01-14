@@ -1,0 +1,4112 @@
+{
+ "children": [
+  {
+   "children": [
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node9",
+                   "rule": "United Kingdom < 0.5 ",
+                   "values": [
+                    63.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node12",
+                       "rule": "Age < 40 ",
+                       "values": [
+                        14.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node13",
+                       "rule": "Age > 40 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.12444444444444447,
+                     "name": "node11",
+                     "rule": "family_history <  0 ",
+                     "values": [
+                      14.0,
+                      1.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.12444444444444447,
+                     "name": "node14",
+                     "rule": "family_history >  0 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.0,
+                   "name": "node10",
+                   "rule": "United Kingdom > 0.5 ",
+                   "values": [
+                    14.0,
+                    2.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.04935106553436952,
+                 "name": "node8",
+                 "rule": "Canada < 0.5 ",
+                 "values": [
+                  77.0,
+                  2.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node17",
+                     "rule": "phys_health_interview < 0.5 ",
+                     "values": [
+                      8.0,
+                      0.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node19",
+                       "rule": "supervisor < 0.5 ",
+                       "values": [
+                        1.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node20",
+                       "rule": "supervisor > 0.5 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.0,
+                     "name": "node18",
+                     "rule": "phys_health_interview > 0.5 ",
+                     "values": [
+                      1.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.18000000000000005,
+                   "name": "node16",
+                   "rule": "Age < 40 ",
+                   "values": [
+                    9.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.18000000000000005,
+                   "name": "node21",
+                   "rule": "Age > 40 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.04935106553436952,
+                 "name": "node15",
+                 "rule": "Canada > 0.5 ",
+                 "values": [
+                  9.0,
+                  2.0
+                 ]
+                }
+               ],
+               "impurity": 0.08493827160493828,
+               "name": "node7",
+               "rule": "MN < 0.5 ",
+               "values": [
+                86.0,
+                4.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node23",
+                 "rule": "family_history <  0 ",
+                 "values": [
+                  2.0,
+                  0.0
+                 ]
+                },
+                {
+                 "impurity": 0.0,
+                 "name": "node24",
+                 "rule": "family_history >  0 ",
+                 "values": [
+                  0.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.08493827160493828,
+               "name": "node22",
+               "rule": "MN > 0.5 ",
+               "values": [
+                2.0,
+                1.0
+               ]
+              }
+             ],
+             "impurity": 0.1017458665741704,
+             "name": "node6",
+             "rule": "Switzerland < 0.5 ",
+             "values": [
+              88.0,
+              5.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node26",
+               "rule": "wellness_program <  0 ",
+               "values": [
+                1.0,
+                0.0
+               ]
+              },
+              {
+               "impurity": 0.0,
+               "name": "node27",
+               "rule": "wellness_program >  0 ",
+               "values": [
+                0.0,
+                1.0
+               ]
+              }
+             ],
+             "impurity": 0.1017458665741704,
+             "name": "node25",
+             "rule": "Switzerland > 0.5 ",
+             "values": [
+              1.0,
+              1.0
+             ]
+            }
+           ],
+           "impurity": 0.11833795013850412,
+           "name": "node5",
+           "rule": "mental_health_consequence < -0.5 ",
+           "values": [
+            89.0,
+            6.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node34",
+                       "rule": "seek_help < -0.5 ",
+                       "values": [
+                        9.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node36",
+                         "rule": "Age < 28 ",
+                         "values": [
+                          2.0,
+                          0.0
+                         ]
+                        },
+                        {
+                         "children": [
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node39",
+                             "rule": "tech_company <  0 ",
+                             "values": [
+                              0.0,
+                              1.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.0,
+                             "name": "node40",
+                             "rule": "tech_company >  0 ",
+                             "values": [
+                              2.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.4444444444444444,
+                           "name": "node38",
+                           "rule": "care_options < -0.5 ",
+                           "values": [
+                            2.0,
+                            1.0
+                           ]
+                          },
+                          {
+                           "impurity": 0.4444444444444444,
+                           "name": "node41",
+                           "rule": "care_options > -0.5 ",
+                           "values": [
+                            0.0,
+                            3.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.0,
+                         "name": "node37",
+                         "rule": "Age > 28 ",
+                         "values": [
+                          2.0,
+                          4.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.0,
+                       "name": "node35",
+                       "rule": "seek_help > -0.5 ",
+                       "values": [
+                        4.0,
+                        4.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.3598615916955017,
+                     "name": "node33",
+                     "rule": "no_employees < 4.5 ",
+                     "values": [
+                      13.0,
+                      4.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.3598615916955017,
+                     "name": "node42",
+                     "rule": "no_employees > 4.5 ",
+                     "values": [
+                      0.0,
+                      5.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.48347107438016534,
+                   "name": "node32",
+                   "rule": "supervisor < -0.5 ",
+                   "values": [
+                    13.0,
+                    9.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node46",
+                         "rule": "leave < -0.67 ",
+                         "values": [
+                          0.0,
+                          1.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node47",
+                         "rule": "leave > -0.67 ",
+                         "values": [
+                          27.0,
+                          0.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.06887755102040816,
+                       "name": "node45",
+                       "rule": "Age < 32 ",
+                       "values": [
+                        27.0,
+                        1.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "children": [
+                          {
+                           "impurity": 0.0,
+                           "name": "node50",
+                           "rule": "female < 0.5 ",
+                           "values": [
+                            0.0,
+                            2.0
+                           ]
+                          },
+                          {
+                           "impurity": 0.0,
+                           "name": "node51",
+                           "rule": "female > 0.5 ",
+                           "values": [
+                            1.0,
+                            0.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.4444444444444444,
+                         "name": "node49",
+                         "rule": "no_employees < 0.5 ",
+                         "values": [
+                          1.0,
+                          2.0
+                         ]
+                        },
+                        {
+                         "children": [
+                          {
+                           "children": [
+                            {
+                             "children": [
+                              {
+                               "impurity": 0.0,
+                               "name": "node55",
+                               "rule": "male < 0.5 ",
+                               "values": [
+                                0.0,
+                                1.0
+                               ]
+                              },
+                              {
+                               "impurity": 0.0,
+                               "name": "node56",
+                               "rule": "male > 0.5 ",
+                               "values": [
+                                3.0,
+                                0.0
+                               ]
+                              }
+                             ],
+                             "impurity": 0.375,
+                             "name": "node54",
+                             "rule": "no_employees < 1.5 ",
+                             "values": [
+                              3.0,
+                              1.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.375,
+                             "name": "node57",
+                             "rule": "no_employees > 1.5 ",
+                             "values": [
+                              12.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.1171875,
+                           "name": "node53",
+                           "rule": "United Kingdom < 0.5 ",
+                           "values": [
+                            15.0,
+                            1.0
+                           ]
+                          },
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node59",
+                             "rule": "mental_vs_physical < 0.5 ",
+                             "values": [
+                              0.0,
+                              2.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.0,
+                             "name": "node60",
+                             "rule": "mental_vs_physical > 0.5 ",
+                             "values": [
+                              1.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.1171875,
+                           "name": "node58",
+                           "rule": "United Kingdom > 0.5 ",
+                           "values": [
+                            1.0,
+                            2.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.4444444444444444,
+                         "name": "node52",
+                         "rule": "no_employees > 0.5 ",
+                         "values": [
+                          16.0,
+                          3.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.06887755102040816,
+                       "name": "node48",
+                       "rule": "Age > 32 ",
+                       "values": [
+                        17.0,
+                        5.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.21120000000000005,
+                     "name": "node44",
+                     "rule": "Age < 44 ",
+                     "values": [
+                      44.0,
+                      6.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node62",
+                       "rule": "tech_company <  0 ",
+                       "values": [
+                        1.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node63",
+                       "rule": "tech_company >  0 ",
+                       "values": [
+                        0.0,
+                        2.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.21120000000000005,
+                     "name": "node61",
+                     "rule": "Age > 44 ",
+                     "values": [
+                      1.0,
+                      2.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.48347107438016534,
+                   "name": "node43",
+                   "rule": "supervisor > -0.5 ",
+                   "values": [
+                    45.0,
+                    8.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.35057777777777777,
+                 "name": "node31",
+                 "rule": "mental_health_consequence < 0.5 ",
+                 "values": [
+                  58.0,
+                  17.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node66",
+                     "rule": "India < 0.5 ",
+                     "values": [
+                      34.0,
+                      0.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node67",
+                     "rule": "India > 0.5 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.05551020408163265,
+                   "name": "node65",
+                   "rule": "MO < 0.5 ",
+                   "values": [
+                    34.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.05551020408163265,
+                   "name": "node68",
+                   "rule": "MO > 0.5 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.35057777777777777,
+                 "name": "node64",
+                 "rule": "mental_health_consequence > 0.5 ",
+                 "values": [
+                  34.0,
+                  2.0
+                 ]
+                }
+               ],
+               "impurity": 0.2837432026621216,
+               "name": "node30",
+               "rule": "NH < 0.5 ",
+               "values": [
+                92.0,
+                19.0
+               ]
+              },
+              {
+               "impurity": 0.2837432026621216,
+               "name": "node69",
+               "rule": "NH > 0.5 ",
+               "values": [
+                0.0,
+                1.0
+               ]
+              }
+             ],
+             "impurity": 0.29336734693877553,
+             "name": "node29",
+             "rule": "NV < 0.5 ",
+             "values": [
+              92.0,
+              20.0
+             ]
+            },
+            {
+             "impurity": 0.29336734693877553,
+             "name": "node70",
+             "rule": "NV > 0.5 ",
+             "values": [
+              0.0,
+              1.0
+             ]
+            }
+           ],
+           "impurity": 0.11833795013850412,
+           "name": "node28",
+           "rule": "mental_health_consequence > -0.5 ",
+           "values": [
+            92.0,
+            21.0
+           ]
+          }
+         ],
+         "impurity": 0.22591531065088755,
+         "name": "node4",
+         "rule": "Age < 52 ",
+         "values": [
+          181.0,
+          27.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "impurity": 0.0,
+           "name": "node72",
+           "rule": "care_options < 0.5 ",
+           "values": [
+            0.0,
+            3.0
+           ]
+          },
+          {
+           "impurity": 0.0,
+           "name": "node73",
+           "rule": "care_options > 0.5 ",
+           "values": [
+            2.0,
+            0.0
+           ]
+          }
+         ],
+         "impurity": 0.22591531065088755,
+         "name": "node71",
+         "rule": "Age > 52 ",
+         "values": [
+          2.0,
+          3.0
+         ]
+        }
+       ],
+       "impurity": 0.2420154731204126,
+       "name": "node3",
+       "rule": "work_interfere < -0.67 ",
+       "values": [
+        183.0,
+        30.0
+       ]
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node80",
+                   "rule": "male < 0.5 ",
+                   "values": [
+                    0.0,
+                    3.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node82",
+                     "rule": "Age < 19 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "children": [
+                          {
+                           "impurity": 0.0,
+                           "name": "node86",
+                           "rule": "United Kingdom < 0.5 ",
+                           "values": [
+                            16.0,
+                            0.0
+                           ]
+                          },
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node88",
+                             "rule": "supervisor < 0.5 ",
+                             "values": [
+                              3.0,
+                              0.0
+                             ]
+                            },
+                            {
+                             "children": [
+                              {
+                               "impurity": 0.0,
+                               "name": "node90",
+                               "rule": "leave < 0.17 ",
+                               "values": [
+                                0.0,
+                                3.0
+                               ]
+                              },
+                              {
+                               "impurity": 0.0,
+                               "name": "node91",
+                               "rule": "leave > 0.17 ",
+                               "values": [
+                                1.0,
+                                0.0
+                               ]
+                              }
+                             ],
+                             "impurity": 0.0,
+                             "name": "node89",
+                             "rule": "supervisor > 0.5 ",
+                             "values": [
+                              1.0,
+                              3.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.0,
+                           "name": "node87",
+                           "rule": "United Kingdom > 0.5 ",
+                           "values": [
+                            4.0,
+                            3.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.22684310018903586,
+                         "name": "node85",
+                         "rule": "Ireland < 0.5 ",
+                         "values": [
+                          20.0,
+                          3.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.22684310018903586,
+                         "name": "node92",
+                         "rule": "Ireland > 0.5 ",
+                         "values": [
+                          0.0,
+                          1.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.2777777777777778,
+                       "name": "node84",
+                       "rule": "Bulgaria < 0.5 ",
+                       "values": [
+                        20.0,
+                        4.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.2777777777777778,
+                       "name": "node93",
+                       "rule": "Bulgaria > 0.5 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.0,
+                     "name": "node83",
+                     "rule": "Age > 19 ",
+                     "values": [
+                      20.0,
+                      5.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.0,
+                   "name": "node81",
+                   "rule": "male > 0.5 ",
+                   "values": [
+                    20.0,
+                    6.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.4280618311533888,
+                 "name": "node79",
+                 "rule": "Age < 34 ",
+                 "values": [
+                  20.0,
+                  9.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node95",
+                   "rule": "no_employees <  1 ",
+                   "values": [
+                    2.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node96",
+                   "rule": "no_employees >  1 ",
+                   "values": [
+                    0.0,
+                    6.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.4280618311533888,
+                 "name": "node94",
+                 "rule": "Age > 34 ",
+                 "values": [
+                  2.0,
+                  6.0
+                 ]
+                }
+               ],
+               "impurity": 0.48210372534696855,
+               "name": "node78",
+               "rule": "no_employees < 4.5 ",
+               "values": [
+                22.0,
+                15.0
+               ]
+              },
+              {
+               "impurity": 0.48210372534696855,
+               "name": "node97",
+               "rule": "no_employees > 4.5 ",
+               "values": [
+                7.0,
+                0.0
+               ]
+              }
+             ],
+             "impurity": 0.4493801652892562,
+             "name": "node77",
+             "rule": "CA < 0.5 ",
+             "values": [
+              29.0,
+              15.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node99",
+               "rule": "leave < 0.17 ",
+               "values": [
+                0.0,
+                4.0
+               ]
+              },
+              {
+               "impurity": 0.0,
+               "name": "node100",
+               "rule": "leave > 0.17 ",
+               "values": [
+                1.0,
+                0.0
+               ]
+              }
+             ],
+             "impurity": 0.4493801652892562,
+             "name": "node98",
+             "rule": "CA > 0.5 ",
+             "values": [
+              1.0,
+              4.0
+             ]
+            }
+           ],
+           "impurity": 0.4748021657642649,
+           "name": "node76",
+           "rule": "care_options < 0.5 ",
+           "values": [
+            30.0,
+            19.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node103",
+               "rule": "UT < 0.5 ",
+               "values": [
+                6.0,
+                0.0
+               ]
+              },
+              {
+               "impurity": 0.0,
+               "name": "node104",
+               "rule": "UT > 0.5 ",
+               "values": [
+                0.0,
+                1.0
+               ]
+              }
+             ],
+             "impurity": 0.24489795918367352,
+             "name": "node102",
+             "rule": "leave < -0.17 ",
+             "values": [
+              6.0,
+              1.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node110",
+                       "rule": "Canada < 0.5 ",
+                       "values": [
+                        0.0,
+                        27.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node112",
+                         "rule": "male < 0.5 ",
+                         "values": [
+                          0.0,
+                          1.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node113",
+                         "rule": "male > 0.5 ",
+                         "values": [
+                          1.0,
+                          0.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.0,
+                       "name": "node111",
+                       "rule": "Canada > 0.5 ",
+                       "values": [
+                        1.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.06658739595719376,
+                     "name": "node109",
+                     "rule": "IL < 0.5 ",
+                     "values": [
+                      1.0,
+                      28.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node115",
+                       "rule": "seek_help <  0 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node117",
+                         "rule": "mental_health_consequence < 0.5 ",
+                         "values": [
+                          2.0,
+                          0.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node118",
+                         "rule": "mental_health_consequence > 0.5 ",
+                         "values": [
+                          0.0,
+                          1.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.0,
+                       "name": "node116",
+                       "rule": "seek_help >  0 ",
+                       "values": [
+                        2.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.06658739595719376,
+                     "name": "node114",
+                     "rule": "IL > 0.5 ",
+                     "values": [
+                      2.0,
+                      2.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.1652892561983471,
+                   "name": "node108",
+                   "rule": "Brazil < 0.5 ",
+                   "values": [
+                    3.0,
+                    30.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.1652892561983471,
+                   "name": "node119",
+                   "rule": "Brazil > 0.5 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.2076124567474048,
+                 "name": "node107",
+                 "rule": "WI < 0.5 ",
+                 "values": [
+                  4.0,
+                  30.0
+                 ]
+                },
+                {
+                 "impurity": 0.2076124567474048,
+                 "name": "node120",
+                 "rule": "WI > 0.5 ",
+                 "values": [
+                  1.0,
+                  0.0
+                 ]
+                }
+               ],
+               "impurity": 0.24489795918367352,
+               "name": "node106",
+               "rule": "Switzerland < 0.5 ",
+               "values": [
+                5.0,
+                30.0
+               ]
+              },
+              {
+               "impurity": 0.24489795918367352,
+               "name": "node121",
+               "rule": "Switzerland > 0.5 ",
+               "values": [
+                1.0,
+                0.0
+               ]
+              }
+             ],
+             "impurity": 0.24489795918367352,
+             "name": "node105",
+             "rule": "leave > -0.17 ",
+             "values": [
+              6.0,
+              30.0
+             ]
+            }
+           ],
+           "impurity": 0.4748021657642649,
+           "name": "node101",
+           "rule": "care_options > 0.5 ",
+           "values": [
+            12.0,
+            31.0
+           ]
+          }
+         ],
+         "impurity": 0.49621928166351603,
+         "name": "node75",
+         "rule": "family_history <  0 ",
+         "values": [
+          42.0,
+          50.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node128",
+                     "rule": "PA < 0.5 ",
+                     "values": [
+                      0.0,
+                      58.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node130",
+                       "rule": "mental_vs_physical < -0.5 ",
+                       "values": [
+                        1.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node131",
+                       "rule": "mental_vs_physical > -0.5 ",
+                       "values": [
+                        0.0,
+                        4.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.0,
+                     "name": "node129",
+                     "rule": "PA > 0.5 ",
+                     "values": [
+                      1.0,
+                      4.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.031242126480221732,
+                   "name": "node127",
+                   "rule": "MA < 0.5 ",
+                   "values": [
+                    1.0,
+                    62.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node133",
+                     "rule": "phys_health_consequence < -0.5 ",
+                     "values": [
+                      1.0,
+                      0.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node134",
+                     "rule": "phys_health_consequence > -0.5 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.031242126480221732,
+                   "name": "node132",
+                   "rule": "MA > 0.5 ",
+                   "values": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.05964497041420114,
+                 "name": "node126",
+                 "rule": "UT < 0.5 ",
+                 "values": [
+                  2.0,
+                  63.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node136",
+                   "rule": "no_employees < 3.5 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node137",
+                   "rule": "no_employees > 3.5 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.05964497041420114,
+                 "name": "node135",
+                 "rule": "UT > 0.5 ",
+                 "values": [
+                  1.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.08554243706838938,
+               "name": "node125",
+               "rule": "United Kingdom < 0.5 ",
+               "values": [
+                3.0,
+                64.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node139",
+                 "rule": "benefits < -0.5 ",
+                 "values": [
+                  0.0,
+                  6.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node141",
+                   "rule": "no_employees < 4.5 ",
+                   "values": [
+                    3.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node142",
+                   "rule": "no_employees > 4.5 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.0,
+                 "name": "node140",
+                 "rule": "benefits > -0.5 ",
+                 "values": [
+                  3.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.08554243706838938,
+               "name": "node138",
+               "rule": "United Kingdom > 0.5 ",
+               "values": [
+                3.0,
+                7.0
+               ]
+              }
+             ],
+             "impurity": 0.14370045538876708,
+             "name": "node124",
+             "rule": "Bosnia and Herzegovina < 0.5 ",
+             "values": [
+              6.0,
+              71.0
+             ]
+            },
+            {
+             "impurity": 0.14370045538876708,
+             "name": "node143",
+             "rule": "Bosnia and Herzegovina > 0.5 ",
+             "values": [
+              1.0,
+              0.0
+             ]
+            }
+           ],
+           "impurity": 0.16337935568704798,
+           "name": "node123",
+           "rule": "MO < 0.5 ",
+           "values": [
+            7.0,
+            71.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "impurity": 0.0,
+             "name": "node145",
+             "rule": "seek_help < 0.5 ",
+             "values": [
+              2.0,
+              0.0
+             ]
+            },
+            {
+             "impurity": 0.0,
+             "name": "node146",
+             "rule": "seek_help > 0.5 ",
+             "values": [
+              0.0,
+              1.0
+             ]
+            }
+           ],
+           "impurity": 0.16337935568704798,
+           "name": "node144",
+           "rule": "MO > 0.5 ",
+           "values": [
+            2.0,
+            1.0
+           ]
+          }
+         ],
+         "impurity": 0.49621928166351603,
+         "name": "node122",
+         "rule": "family_history >  0 ",
+         "values": [
+          9.0,
+          72.0
+         ]
+        }
+       ],
+       "impurity": 0.2420154731204126,
+       "name": "node74",
+       "rule": "work_interfere > -0.67 ",
+       "values": [
+        51.0,
+        122.0
+       ]
+      }
+     ],
+     "impurity": 0.47743563585599613,
+     "name": "node2",
+     "rule": "work_interfere < -0.17 ",
+     "values": [
+      234.0,
+      152.0
+     ]
+    },
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "impurity": 0.0,
+             "name": "node151",
+             "rule": "United Kingdom < 0.5 ",
+             "values": [
+              208.0,
+              0.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node154",
+                 "rule": "Age < 25 ",
+                 "values": [
+                  8.0,
+                  0.0
+                 ]
+                },
+                {
+                 "impurity": 0.0,
+                 "name": "node155",
+                 "rule": "Age > 25 ",
+                 "values": [
+                  0.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.19753086419753085,
+               "name": "node153",
+               "rule": "Age < 26 ",
+               "values": [
+                8.0,
+                1.0
+               ]
+              },
+              {
+               "impurity": 0.19753086419753085,
+               "name": "node156",
+               "rule": "Age > 26 ",
+               "values": [
+                35.0,
+                0.0
+               ]
+              }
+             ],
+             "impurity": 0.0,
+             "name": "node152",
+             "rule": "United Kingdom > 0.5 ",
+             "values": [
+              43.0,
+              1.0
+             ]
+            }
+           ],
+           "impurity": 0.007905013857394838,
+           "name": "node150",
+           "rule": "Netherlands < 0.5 ",
+           "values": [
+            251.0,
+            1.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "impurity": 0.0,
+             "name": "node158",
+             "rule": "obs_consequence <  0 ",
+             "values": [
+              7.0,
+              0.0
+             ]
+            },
+            {
+             "impurity": 0.0,
+             "name": "node159",
+             "rule": "obs_consequence >  0 ",
+             "values": [
+              0.0,
+              1.0
+             ]
+            }
+           ],
+           "impurity": 0.007905013857394838,
+           "name": "node157",
+           "rule": "Netherlands > 0.5 ",
+           "values": [
+            7.0,
+            1.0
+           ]
+          }
+         ],
+         "impurity": 0.015266272189349062,
+         "name": "node149",
+         "rule": "Brazil < 0.5 ",
+         "values": [
+          258.0,
+          2.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "impurity": 0.0,
+           "name": "node161",
+           "rule": "mental_health_interview < -0.5 ",
+           "values": [
+            0.0,
+            1.0
+           ]
+          },
+          {
+           "impurity": 0.0,
+           "name": "node162",
+           "rule": "mental_health_interview > -0.5 ",
+           "values": [
+            1.0,
+            0.0
+           ]
+          }
+         ],
+         "impurity": 0.015266272189349062,
+         "name": "node160",
+         "rule": "Brazil > 0.5 ",
+         "values": [
+          1.0,
+          1.0
+         ]
+        }
+       ],
+       "impurity": 0.022638540877571223,
+       "name": "node148",
+       "rule": "AZ < 0.5 ",
+       "values": [
+        259.0,
+        3.0
+       ]
+      },
+      {
+       "children": [
+        {
+         "impurity": 0.0,
+         "name": "node164",
+         "rule": "care_options <  0 ",
+         "values": [
+          1.0,
+          0.0
+         ]
+        },
+        {
+         "impurity": 0.0,
+         "name": "node165",
+         "rule": "care_options >  0 ",
+         "values": [
+          0.0,
+          1.0
+         ]
+        }
+       ],
+       "impurity": 0.022638540877571223,
+       "name": "node163",
+       "rule": "AZ > 0.5 ",
+       "values": [
+        1.0,
+        1.0
+       ]
+      }
+     ],
+     "impurity": 0.47743563585599613,
+     "name": "node147",
+     "rule": "work_interfere > -0.17 ",
+     "values": [
+      260.0,
+      4.0
+     ]
+    }
+   ],
+   "impurity": 0.3648,
+   "name": "node1",
+   "rule": "work_interfere < 0.17 ",
+   "values": [
+    494.0,
+    156.0
+   ]
+  },
+  {
+   "children": [
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node173",
+                 "rule": "no_employees < 0.5 ",
+                 "values": [
+                  0.0,
+                  1.0
+                 ]
+                },
+                {
+                 "impurity": 0.0,
+                 "name": "node174",
+                 "rule": "no_employees > 0.5 ",
+                 "values": [
+                  13.0,
+                  0.0
+                 ]
+                }
+               ],
+               "impurity": 0.13265306122448983,
+               "name": "node172",
+               "rule": "benefits < -0.5 ",
+               "values": [
+                13.0,
+                1.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node180",
+                         "rule": "OH < 0.5 ",
+                         "values": [
+                          0.0,
+                          13.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node181",
+                         "rule": "OH > 0.5 ",
+                         "values": [
+                          1.0,
+                          0.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.13265306122448983,
+                       "name": "node179",
+                       "rule": "Singapore < 0.5 ",
+                       "values": [
+                        1.0,
+                        13.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.13265306122448983,
+                       "name": "node182",
+                       "rule": "Singapore > 0.5 ",
+                       "values": [
+                        1.0,
+                        0.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.23111111111111116,
+                     "name": "node178",
+                     "rule": "supervisor < 0.5 ",
+                     "values": [
+                      2.0,
+                      13.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node184",
+                       "rule": "phys_health_interview < 0.5 ",
+                       "values": [
+                        2.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node185",
+                       "rule": "phys_health_interview > 0.5 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.23111111111111116,
+                     "name": "node183",
+                     "rule": "supervisor > 0.5 ",
+                     "values": [
+                      2.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.345679012345679,
+                   "name": "node177",
+                   "rule": "mental_health_interview < -0.5 ",
+                   "values": [
+                    4.0,
+                    14.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.345679012345679,
+                   "name": "node186",
+                   "rule": "mental_health_interview > -0.5 ",
+                   "values": [
+                    4.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.4628099173553719,
+                 "name": "node176",
+                 "rule": "no_employees < 3.5 ",
+                 "values": [
+                  8.0,
+                  14.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node188",
+                   "rule": "benefits < 0.5 ",
+                   "values": [
+                    6.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node190",
+                     "rule": "phys_health_consequence < -0.5 ",
+                     "values": [
+                      0.0,
+                      2.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node191",
+                     "rule": "phys_health_consequence > -0.5 ",
+                     "values": [
+                      3.0,
+                      0.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.0,
+                   "name": "node189",
+                   "rule": "benefits > 0.5 ",
+                   "values": [
+                    3.0,
+                    2.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.4628099173553719,
+                 "name": "node187",
+                 "rule": "no_employees > 3.5 ",
+                 "values": [
+                  9.0,
+                  2.0
+                 ]
+                }
+               ],
+               "impurity": 0.13265306122448983,
+               "name": "node175",
+               "rule": "benefits > -0.5 ",
+               "values": [
+                17.0,
+                16.0
+               ]
+              }
+             ],
+             "impurity": 0.46174739701222267,
+             "name": "node171",
+             "rule": "remote_work <  0 ",
+             "values": [
+              30.0,
+              17.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node193",
+               "rule": "no_employees < 0.5 ",
+               "values": [
+                2.0,
+                0.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node195",
+                 "rule": "anonymity < -0.5 ",
+                 "values": [
+                  1.0,
+                  0.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node198",
+                     "rule": "TX < 0.5 ",
+                     "values": [
+                      0.0,
+                      14.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node200",
+                       "rule": "mental_vs_physical < -0.5 ",
+                       "values": [
+                        1.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node201",
+                       "rule": "mental_vs_physical > -0.5 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.0,
+                     "name": "node199",
+                     "rule": "TX > 0.5 ",
+                     "values": [
+                      1.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.1171875,
+                   "name": "node197",
+                   "rule": "mental_health_consequence < 0.5 ",
+                   "values": [
+                    1.0,
+                    15.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node203",
+                     "rule": "seek_help < -0.5 ",
+                     "values": [
+                      1.0,
+                      0.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node204",
+                     "rule": "seek_help > -0.5 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.1171875,
+                   "name": "node202",
+                   "rule": "mental_health_consequence > 0.5 ",
+                   "values": [
+                    1.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.0,
+                 "name": "node196",
+                 "rule": "anonymity > -0.5 ",
+                 "values": [
+                  2.0,
+                  16.0
+                 ]
+                }
+               ],
+               "impurity": 0.0,
+               "name": "node194",
+               "rule": "no_employees > 0.5 ",
+               "values": [
+                3.0,
+                16.0
+               ]
+              }
+             ],
+             "impurity": 0.46174739701222267,
+             "name": "node192",
+             "rule": "remote_work >  0 ",
+             "values": [
+              5.0,
+              16.0
+             ]
+            }
+           ],
+           "impurity": 0.4995674740484429,
+           "name": "node170",
+           "rule": "Age < 32 ",
+           "values": [
+            35.0,
+            33.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node210",
+                     "rule": "remote_work <  0 ",
+                     "values": [
+                      2.0,
+                      0.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node211",
+                     "rule": "remote_work >  0 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.4444444444444444,
+                   "name": "node209",
+                   "rule": "male < 0.5 ",
+                   "values": [
+                    2.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.4444444444444444,
+                   "name": "node212",
+                   "rule": "male > 0.5 ",
+                   "values": [
+                    0.0,
+                    12.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.23111111111111116,
+                 "name": "node208",
+                 "rule": "benefits < -0.5 ",
+                 "values": [
+                  2.0,
+                  13.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node214",
+                   "rule": "Age < 33 ",
+                   "values": [
+                    0.0,
+                    4.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "children": [
+                          {
+                           "children": [
+                            {
+                             "children": [
+                              {
+                               "children": [
+                                {
+                                 "impurity": 0.0,
+                                 "name": "node222",
+                                 "rule": "mental_health_consequence < -0.5 ",
+                                 "values": [
+                                  0.0,
+                                  1.0
+                                 ]
+                                },
+                                {
+                                 "impurity": 0.0,
+                                 "name": "node223",
+                                 "rule": "mental_health_consequence > -0.5 ",
+                                 "values": [
+                                  7.0,
+                                  0.0
+                                 ]
+                                }
+                               ],
+                               "impurity": 0.21875,
+                               "name": "node221",
+                               "rule": "TX < 0.5 ",
+                               "values": [
+                                7.0,
+                                1.0
+                               ]
+                              },
+                              {
+                               "impurity": 0.21875,
+                               "name": "node224",
+                               "rule": "TX > 0.5 ",
+                               "values": [
+                                0.0,
+                                1.0
+                               ]
+                              }
+                             ],
+                             "impurity": 0.345679012345679,
+                             "name": "node220",
+                             "rule": "supervisor < -0.5 ",
+                             "values": [
+                              7.0,
+                              2.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.345679012345679,
+                             "name": "node225",
+                             "rule": "supervisor > -0.5 ",
+                             "values": [
+                              6.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.23111111111111116,
+                           "name": "node219",
+                           "rule": "GA < 0.5 ",
+                           "values": [
+                            13.0,
+                            2.0
+                           ]
+                          },
+                          {
+                           "impurity": 0.23111111111111116,
+                           "name": "node226",
+                           "rule": "GA > 0.5 ",
+                           "values": [
+                            0.0,
+                            1.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.3046875,
+                         "name": "node218",
+                         "rule": "obs_consequence <  0 ",
+                         "values": [
+                          13.0,
+                          3.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.3046875,
+                         "name": "node227",
+                         "rule": "obs_consequence >  0 ",
+                         "values": [
+                          0.0,
+                          2.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.4012345679012346,
+                       "name": "node217",
+                       "rule": "coworkers < 0.5 ",
+                       "values": [
+                        13.0,
+                        5.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node229",
+                         "rule": "NJ < 0.5 ",
+                         "values": [
+                          0.0,
+                          4.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node230",
+                         "rule": "NJ > 0.5 ",
+                         "values": [
+                          1.0,
+                          0.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.4012345679012346,
+                       "name": "node228",
+                       "rule": "coworkers > 0.5 ",
+                       "values": [
+                        1.0,
+                        4.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.4763705103969754,
+                     "name": "node216",
+                     "rule": "CA < 0.5 ",
+                     "values": [
+                      14.0,
+                      9.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node233",
+                         "rule": "phys_health_interview < -0.5 ",
+                         "values": [
+                          1.0,
+                          0.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node234",
+                         "rule": "phys_health_interview > -0.5 ",
+                         "values": [
+                          0.0,
+                          1.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.5,
+                       "name": "node232",
+                       "rule": "phys_health_consequence < -0.5 ",
+                       "values": [
+                        1.0,
+                        1.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.5,
+                       "name": "node235",
+                       "rule": "phys_health_consequence > -0.5 ",
+                       "values": [
+                        0.0,
+                        4.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.4763705103969754,
+                     "name": "node231",
+                     "rule": "CA > 0.5 ",
+                     "values": [
+                      1.0,
+                      5.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.0,
+                   "name": "node215",
+                   "rule": "Age > 33 ",
+                   "values": [
+                    15.0,
+                    14.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.23111111111111116,
+                 "name": "node213",
+                 "rule": "benefits > -0.5 ",
+                 "values": [
+                  15.0,
+                  18.0
+                 ]
+                }
+               ],
+               "impurity": 0.4574652777777778,
+               "name": "node207",
+               "rule": "anonymity < 0.5 ",
+               "values": [
+                17.0,
+                31.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node237",
+                 "rule": "WA < 0.5 ",
+                 "values": [
+                  0.0,
+                  14.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node239",
+                   "rule": "no_employees < 1.5 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node240",
+                   "rule": "no_employees > 1.5 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.0,
+                 "name": "node238",
+                 "rule": "WA > 0.5 ",
+                 "values": [
+                  1.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.4574652777777778,
+               "name": "node236",
+               "rule": "anonymity > 0.5 ",
+               "values": [
+                1.0,
+                15.0
+               ]
+              }
+             ],
+             "impurity": 0.404296875,
+             "name": "node206",
+             "rule": "MI < 0.5 ",
+             "values": [
+              18.0,
+              46.0
+             ]
+            },
+            {
+             "impurity": 0.404296875,
+             "name": "node241",
+             "rule": "MI > 0.5 ",
+             "values": [
+              3.0,
+              0.0
+             ]
+            }
+           ],
+           "impurity": 0.4995674740484429,
+           "name": "node205",
+           "rule": "Age > 32 ",
+           "values": [
+            21.0,
+            46.0
+           ]
+          }
+         ],
+         "impurity": 0.48548696844993144,
+         "name": "node169",
+         "rule": "United Kingdom < 0.5 ",
+         "values": [
+          56.0,
+          79.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node245",
+               "rule": "phys_health_interview < 0.5 ",
+               "values": [
+                0.0,
+                8.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node248",
+                   "rule": "Age < 28 ",
+                   "values": [
+                    2.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node249",
+                   "rule": "Age > 28 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.4444444444444444,
+                 "name": "node247",
+                 "rule": "obs_consequence <  0 ",
+                 "values": [
+                  2.0,
+                  1.0
+                 ]
+                },
+                {
+                 "impurity": 0.4444444444444444,
+                 "name": "node250",
+                 "rule": "obs_consequence >  0 ",
+                 "values": [
+                  0.0,
+                  2.0
+                 ]
+                }
+               ],
+               "impurity": 0.0,
+               "name": "node246",
+               "rule": "phys_health_interview > 0.5 ",
+               "values": [
+                2.0,
+                3.0
+               ]
+              }
+             ],
+             "impurity": 0.2603550295857988,
+             "name": "node244",
+             "rule": "Age < 34 ",
+             "values": [
+              2.0,
+              11.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node252",
+               "rule": "work_interfere < 0.67 ",
+               "values": [
+                5.0,
+                0.0
+               ]
+              },
+              {
+               "impurity": 0.0,
+               "name": "node253",
+               "rule": "work_interfere > 0.67 ",
+               "values": [
+                0.0,
+                2.0
+               ]
+              }
+             ],
+             "impurity": 0.2603550295857988,
+             "name": "node251",
+             "rule": "Age > 34 ",
+             "values": [
+              5.0,
+              2.0
+             ]
+            }
+           ],
+           "impurity": 0.45499999999999996,
+           "name": "node243",
+           "rule": "no_employees < 1.5 ",
+           "values": [
+            7.0,
+            13.0
+           ]
+          },
+          {
+           "impurity": 0.45499999999999996,
+           "name": "node254",
+           "rule": "no_employees > 1.5 ",
+           "values": [
+            0.0,
+            17.0
+           ]
+          }
+         ],
+         "impurity": 0.48548696844993144,
+         "name": "node242",
+         "rule": "United Kingdom > 0.5 ",
+         "values": [
+          7.0,
+          30.0
+         ]
+        }
+       ],
+       "impurity": 0.46423742563547865,
+       "name": "node168",
+       "rule": "family_history <  0 ",
+       "values": [
+        63.0,
+        109.0
+       ]
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node261",
+                   "rule": "work_interfere < 0.67 ",
+                   "values": [
+                    5.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node262",
+                   "rule": "work_interfere > 0.67 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.2777777777777778,
+                 "name": "node260",
+                 "rule": "benefits < -0.5 ",
+                 "values": [
+                  5.0,
+                  1.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node266",
+                       "rule": "wellness_program < -0.5 ",
+                       "values": [
+                        0.0,
+                        16.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node268",
+                         "rule": "phys_health_consequence < -0.5 ",
+                         "values": [
+                          1.0,
+                          0.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node269",
+                         "rule": "phys_health_consequence > -0.5 ",
+                         "values": [
+                          0.0,
+                          1.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.0,
+                       "name": "node267",
+                       "rule": "wellness_program > -0.5 ",
+                       "values": [
+                        1.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.1049382716049383,
+                     "name": "node265",
+                     "rule": "NC < 0.5 ",
+                     "values": [
+                      1.0,
+                      17.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.1049382716049383,
+                     "name": "node270",
+                     "rule": "NC > 0.5 ",
+                     "values": [
+                      1.0,
+                      0.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.18836565096952906,
+                   "name": "node264",
+                   "rule": "NY < 0.5 ",
+                   "values": [
+                    2.0,
+                    17.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.18836565096952906,
+                   "name": "node271",
+                   "rule": "NY > 0.5 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.2777777777777778,
+                 "name": "node263",
+                 "rule": "benefits > -0.5 ",
+                 "values": [
+                  3.0,
+                  17.0
+                 ]
+                }
+               ],
+               "impurity": 0.42603550295857984,
+               "name": "node259",
+               "rule": "coworkers < -0.5 ",
+               "values": [
+                8.0,
+                18.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "children": [
+                          {
+                           "impurity": 0.0,
+                           "name": "node278",
+                           "rule": "CA < 0.5 ",
+                           "values": [
+                            0.0,
+                            23.0
+                           ]
+                          },
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node280",
+                             "rule": "supervisor < 0.5 ",
+                             "values": [
+                              0.0,
+                              2.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.0,
+                             "name": "node281",
+                             "rule": "supervisor > 0.5 ",
+                             "values": [
+                              1.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.0,
+                           "name": "node279",
+                           "rule": "CA > 0.5 ",
+                           "values": [
+                            1.0,
+                            2.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.07396449704142016,
+                         "name": "node277",
+                         "rule": "no_employees < 2.5 ",
+                         "values": [
+                          1.0,
+                          25.0
+                         ]
+                        },
+                        {
+                         "children": [
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node284",
+                             "rule": "OH < 0.5 ",
+                             "values": [
+                              0.0,
+                              6.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.0,
+                             "name": "node285",
+                             "rule": "OH > 0.5 ",
+                             "values": [
+                              1.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.24489795918367352,
+                           "name": "node283",
+                           "rule": "supervisor < -0.5 ",
+                           "values": [
+                            1.0,
+                            6.0
+                           ]
+                          },
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node287",
+                             "rule": "seek_help < 0.5 ",
+                             "values": [
+                              2.0,
+                              0.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.0,
+                             "name": "node288",
+                             "rule": "seek_help > 0.5 ",
+                             "values": [
+                              0.0,
+                              1.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.24489795918367352,
+                           "name": "node286",
+                           "rule": "supervisor > -0.5 ",
+                           "values": [
+                            2.0,
+                            1.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.07396449704142016,
+                         "name": "node282",
+                         "rule": "no_employees > 2.5 ",
+                         "values": [
+                          3.0,
+                          7.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.19753086419753085,
+                       "name": "node276",
+                       "rule": "self_employed <  0 ",
+                       "values": [
+                        4.0,
+                        32.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node290",
+                         "rule": "seek_help < -0.5 ",
+                         "values": [
+                          2.0,
+                          0.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node291",
+                         "rule": "seek_help > -0.5 ",
+                         "values": [
+                          0.0,
+                          2.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.19753086419753085,
+                       "name": "node289",
+                       "rule": "self_employed >  0 ",
+                       "values": [
+                        2.0,
+                        2.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.255,
+                     "name": "node275",
+                     "rule": "phys_health_interview < 0.5 ",
+                     "values": [
+                      6.0,
+                      34.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.255,
+                     "name": "node292",
+                     "rule": "phys_health_interview > 0.5 ",
+                     "values": [
+                      0.0,
+                      17.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.18836565096952906,
+                   "name": "node274",
+                   "rule": "female < 0.5 ",
+                   "values": [
+                    6.0,
+                    51.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.18836565096952906,
+                   "name": "node293",
+                   "rule": "female > 0.5 ",
+                   "values": [
+                    0.0,
+                    23.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.13875000000000004,
+                 "name": "node273",
+                 "rule": "TN < 0.5 ",
+                 "values": [
+                  6.0,
+                  74.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node295",
+                   "rule": "mental_vs_physical < 0.5 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node296",
+                   "rule": "mental_vs_physical > 0.5 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.13875000000000004,
+                 "name": "node294",
+                 "rule": "TN > 0.5 ",
+                 "values": [
+                  1.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.42603550295857984,
+               "name": "node272",
+               "rule": "coworkers > -0.5 ",
+               "values": [
+                7.0,
+                75.0
+               ]
+              }
+             ],
+             "impurity": 0.23919753086419748,
+             "name": "node258",
+             "rule": "Age < 32 ",
+             "values": [
+              15.0,
+              93.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node300",
+                   "rule": "Age < 46 ",
+                   "values": [
+                    0.0,
+                    12.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node301",
+                   "rule": "Age > 46 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.14201183431952658,
+                 "name": "node299",
+                 "rule": "leave < -0.17 ",
+                 "values": [
+                  1.0,
+                  12.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "children": [
+                          {
+                           "impurity": 0.0,
+                           "name": "node307",
+                           "rule": "phys_health_interview < -0.5 ",
+                           "values": [
+                            0.0,
+                            2.0
+                           ]
+                          },
+                          {
+                           "children": [
+                            {
+                             "children": [
+                              {
+                               "impurity": 0.0,
+                               "name": "node310",
+                               "rule": "United Kingdom < 0.5 ",
+                               "values": [
+                                0.0,
+                                2.0
+                               ]
+                              },
+                              {
+                               "children": [
+                                {
+                                 "impurity": 0.0,
+                                 "name": "node312",
+                                 "rule": "anonymity < 0.5 ",
+                                 "values": [
+                                  1.0,
+                                  0.0
+                                 ]
+                                },
+                                {
+                                 "impurity": 0.0,
+                                 "name": "node313",
+                                 "rule": "anonymity > 0.5 ",
+                                 "values": [
+                                  0.0,
+                                  1.0
+                                 ]
+                                }
+                               ],
+                               "impurity": 0.0,
+                               "name": "node311",
+                               "rule": "United Kingdom > 0.5 ",
+                               "values": [
+                                1.0,
+                                1.0
+                               ]
+                              }
+                             ],
+                             "impurity": 0.375,
+                             "name": "node309",
+                             "rule": "care_options < -0.5 ",
+                             "values": [
+                              1.0,
+                              3.0
+                             ]
+                            },
+                            {
+                             "impurity": 0.375,
+                             "name": "node314",
+                             "rule": "care_options > -0.5 ",
+                             "values": [
+                              4.0,
+                              0.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.0,
+                           "name": "node308",
+                           "rule": "phys_health_interview > -0.5 ",
+                           "values": [
+                            5.0,
+                            3.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.5,
+                         "name": "node306",
+                         "rule": "TN < 0.5 ",
+                         "values": [
+                          5.0,
+                          5.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.5,
+                         "name": "node315",
+                         "rule": "TN > 0.5 ",
+                         "values": [
+                          0.0,
+                          3.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.47337278106508873,
+                       "name": "node305",
+                       "rule": "tech_company <  0 ",
+                       "values": [
+                        5.0,
+                        8.0
+                       ]
+                      },
+                      {
+                       "children": [
+                        {
+                         "children": [
+                          {
+                           "children": [
+                            {
+                             "impurity": 0.0,
+                             "name": "node319",
+                             "rule": "remote_work <  0 ",
+                             "values": [
+                              0.0,
+                              11.0
+                             ]
+                            },
+                            {
+                             "children": [
+                              {
+                               "children": [
+                                {
+                                 "impurity": 0.0,
+                                 "name": "node322",
+                                 "rule": "Age < 36 ",
+                                 "values": [
+                                  0.0,
+                                  2.0
+                                 ]
+                                },
+                                {
+                                 "children": [
+                                  {
+                                   "impurity": 0.0,
+                                   "name": "node324",
+                                   "rule": "benefits < 0.5 ",
+                                   "values": [
+                                    2.0,
+                                    0.0
+                                   ]
+                                  },
+                                  {
+                                   "impurity": 0.0,
+                                   "name": "node325",
+                                   "rule": "benefits > 0.5 ",
+                                   "values": [
+                                    0.0,
+                                    1.0
+                                   ]
+                                  }
+                                 ],
+                                 "impurity": 0.0,
+                                 "name": "node323",
+                                 "rule": "Age > 36 ",
+                                 "values": [
+                                  2.0,
+                                  1.0
+                                 ]
+                                }
+                               ],
+                               "impurity": 0.48,
+                               "name": "node321",
+                               "rule": "MI < 0.5 ",
+                               "values": [
+                                2.0,
+                                3.0
+                               ]
+                              },
+                              {
+                               "impurity": 0.48,
+                               "name": "node326",
+                               "rule": "MI > 0.5 ",
+                               "values": [
+                                1.0,
+                                0.0
+                               ]
+                              }
+                             ],
+                             "impurity": 0.0,
+                             "name": "node320",
+                             "rule": "remote_work >  0 ",
+                             "values": [
+                              3.0,
+                              3.0
+                             ]
+                            }
+                           ],
+                           "impurity": 0.2906574394463668,
+                           "name": "node318",
+                           "rule": "Age < 38 ",
+                           "values": [
+                            3.0,
+                            14.0
+                           ]
+                          },
+                          {
+                           "impurity": 0.2906574394463668,
+                           "name": "node327",
+                           "rule": "Age > 38 ",
+                           "values": [
+                            2.0,
+                            0.0
+                           ]
+                          }
+                         ],
+                         "impurity": 0.38781163434903043,
+                         "name": "node317",
+                         "rule": "Age < 40 ",
+                         "values": [
+                          5.0,
+                          14.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.38781163434903043,
+                         "name": "node328",
+                         "rule": "Age > 40 ",
+                         "values": [
+                          0.0,
+                          12.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.47337278106508873,
+                       "name": "node316",
+                       "rule": "tech_company >  0 ",
+                       "values": [
+                        5.0,
+                        26.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.35123966942148765,
+                     "name": "node304",
+                     "rule": "Canada < 0.5 ",
+                     "values": [
+                      10.0,
+                      34.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node330",
+                       "rule": "leave < 0.17 ",
+                       "values": [
+                        2.0,
+                        0.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node331",
+                       "rule": "leave > 0.17 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.35123966942148765,
+                     "name": "node329",
+                     "rule": "Canada > 0.5 ",
+                     "values": [
+                      2.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.3802625622453599,
+                   "name": "node303",
+                   "rule": "coworkers < 0.5 ",
+                   "values": [
+                    12.0,
+                    35.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node334",
+                       "rule": "female < 0.5 ",
+                       "values": [
+                        0.0,
+                        2.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node335",
+                       "rule": "female > 0.5 ",
+                       "values": [
+                        1.0,
+                        0.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.4444444444444444,
+                     "name": "node333",
+                     "rule": "care_options < -0.5 ",
+                     "values": [
+                      1.0,
+                      2.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.4444444444444444,
+                     "name": "node336",
+                     "rule": "care_options > -0.5 ",
+                     "values": [
+                      2.0,
+                      0.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.3802625622453599,
+                   "name": "node332",
+                   "rule": "coworkers > 0.5 ",
+                   "values": [
+                    3.0,
+                    2.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.14201183431952658,
+                 "name": "node302",
+                 "rule": "leave > -0.17 ",
+                 "values": [
+                  15.0,
+                  37.0
+                 ]
+                }
+               ],
+               "impurity": 0.37112426035502954,
+               "name": "node298",
+               "rule": "Netherlands < 0.5 ",
+               "values": [
+                16.0,
+                49.0
+               ]
+              },
+              {
+               "impurity": 0.37112426035502954,
+               "name": "node337",
+               "rule": "Netherlands > 0.5 ",
+               "values": [
+                2.0,
+                0.0
+               ]
+              }
+             ],
+             "impurity": 0.23919753086419748,
+             "name": "node297",
+             "rule": "Age > 32 ",
+             "values": [
+              18.0,
+              49.0
+             ]
+            }
+           ],
+           "impurity": 0.30602448979591834,
+           "name": "node257",
+           "rule": "Brazil < 0.5 ",
+           "values": [
+            33.0,
+            142.0
+           ]
+          },
+          {
+           "impurity": 0.30602448979591834,
+           "name": "node338",
+           "rule": "Brazil > 0.5 ",
+           "values": [
+            1.0,
+            0.0
+           ]
+          }
+         ],
+         "impurity": 0.3117252066115702,
+         "name": "node256",
+         "rule": "PA < 0.5 ",
+         "values": [
+          34.0,
+          142.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "impurity": 0.0,
+           "name": "node340",
+           "rule": "Age < 30 ",
+           "values": [
+            2.0,
+            0.0
+           ]
+          },
+          {
+           "impurity": 0.0,
+           "name": "node341",
+           "rule": "Age > 30 ",
+           "values": [
+            0.0,
+            1.0
+           ]
+          }
+         ],
+         "impurity": 0.3117252066115702,
+         "name": "node339",
+         "rule": "PA > 0.5 ",
+         "values": [
+          2.0,
+          1.0
+         ]
+        }
+       ],
+       "impurity": 0.46423742563547865,
+       "name": "node255",
+       "rule": "family_history >  0 ",
+       "values": [
+        36.0,
+        143.0
+       ]
+      }
+     ],
+     "impurity": 0.4049967126890204,
+     "name": "node167",
+     "rule": "care_options < 0.5 ",
+     "values": [
+      99.0,
+      252.0
+     ]
+    },
+    {
+     "children": [
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node348",
+                 "rule": "United Kingdom < 0.5 ",
+                 "values": [
+                  5.0,
+                  0.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node350",
+                   "rule": "remote_work <  0 ",
+                   "values": [
+                    0.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node351",
+                   "rule": "remote_work >  0 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.0,
+                 "name": "node349",
+                 "rule": "United Kingdom > 0.5 ",
+                 "values": [
+                  1.0,
+                  1.0
+                 ]
+                }
+               ],
+               "impurity": 0.24489795918367352,
+               "name": "node347",
+               "rule": "no_employees < 0.5 ",
+               "values": [
+                6.0,
+                1.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "children": [
+                      {
+                       "children": [
+                        {
+                         "impurity": 0.0,
+                         "name": "node357",
+                         "rule": "mental_vs_physical < -0.5 ",
+                         "values": [
+                          1.0,
+                          0.0
+                         ]
+                        },
+                        {
+                         "impurity": 0.0,
+                         "name": "node358",
+                         "rule": "mental_vs_physical > -0.5 ",
+                         "values": [
+                          0.0,
+                          3.0
+                         ]
+                        }
+                       ],
+                       "impurity": 0.375,
+                       "name": "node356",
+                       "rule": "leave < 0.17 ",
+                       "values": [
+                        1.0,
+                        3.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.375,
+                       "name": "node359",
+                       "rule": "leave > 0.17 ",
+                       "values": [
+                        2.0,
+                        0.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.5,
+                     "name": "node355",
+                     "rule": "anonymity < 0.5 ",
+                     "values": [
+                      3.0,
+                      3.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.5,
+                     "name": "node360",
+                     "rule": "anonymity > 0.5 ",
+                     "values": [
+                      4.0,
+                      0.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.42000000000000004,
+                   "name": "node354",
+                   "rule": "work_interfere < 0.67 ",
+                   "values": [
+                    7.0,
+                    3.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.42000000000000004,
+                   "name": "node361",
+                   "rule": "work_interfere > 0.67 ",
+                   "values": [
+                    0.0,
+                    2.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.48611111111111116,
+                 "name": "node353",
+                 "rule": "wellness_program < -0.5 ",
+                 "values": [
+                  7.0,
+                  5.0
+                 ]
+                },
+                {
+                 "impurity": 0.48611111111111116,
+                 "name": "node362",
+                 "rule": "wellness_program > -0.5 ",
+                 "values": [
+                  0.0,
+                  4.0
+                 ]
+                }
+               ],
+               "impurity": 0.24489795918367352,
+               "name": "node352",
+               "rule": "no_employees > 0.5 ",
+               "values": [
+                7.0,
+                9.0
+               ]
+              }
+             ],
+             "impurity": 0.4914933837429112,
+             "name": "node346",
+             "rule": "leave < 0.67 ",
+             "values": [
+              13.0,
+              10.0
+             ]
+            },
+            {
+             "impurity": 0.4914933837429112,
+             "name": "node363",
+             "rule": "leave > 0.67 ",
+             "values": [
+              0.0,
+              3.0
+             ]
+            }
+           ],
+           "impurity": 0.5,
+           "name": "node345",
+           "rule": "no_employees < 2.5 ",
+           "values": [
+            13.0,
+            13.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "impurity": 0.0,
+             "name": "node365",
+             "rule": "Australia < 0.5 ",
+             "values": [
+              0.0,
+              11.0
+             ]
+            },
+            {
+             "children": [
+              {
+               "impurity": 0.0,
+               "name": "node367",
+               "rule": "benefits <  0 ",
+               "values": [
+                0.0,
+                1.0
+               ]
+              },
+              {
+               "impurity": 0.0,
+               "name": "node368",
+               "rule": "benefits >  0 ",
+               "values": [
+                1.0,
+                0.0
+               ]
+              }
+             ],
+             "impurity": 0.0,
+             "name": "node366",
+             "rule": "Australia > 0.5 ",
+             "values": [
+              1.0,
+              1.0
+             ]
+            }
+           ],
+           "impurity": 0.5,
+           "name": "node364",
+           "rule": "no_employees > 2.5 ",
+           "values": [
+            1.0,
+            12.0
+           ]
+          }
+         ],
+         "impurity": 0.460223537146614,
+         "name": "node344",
+         "rule": "family_history <  0 ",
+         "values": [
+          14.0,
+          25.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node373",
+                 "rule": "mental_vs_physical < -0.5 ",
+                 "values": [
+                  0.0,
+                  8.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node376",
+                     "rule": "leave < -0.5 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node377",
+                     "rule": "leave > -0.5 ",
+                     "values": [
+                      3.0,
+                      0.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.375,
+                   "name": "node375",
+                   "rule": "benefits <  0 ",
+                   "values": [
+                    3.0,
+                    1.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.375,
+                   "name": "node378",
+                   "rule": "benefits >  0 ",
+                   "values": [
+                    0.0,
+                    3.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.0,
+                 "name": "node374",
+                 "rule": "mental_vs_physical > -0.5 ",
+                 "values": [
+                  3.0,
+                  4.0
+                 ]
+                }
+               ],
+               "impurity": 0.31999999999999995,
+               "name": "node372",
+               "rule": "phys_health_interview < -0.5 ",
+               "values": [
+                3.0,
+                12.0
+               ]
+              },
+              {
+               "impurity": 0.31999999999999995,
+               "name": "node379",
+               "rule": "phys_health_interview > -0.5 ",
+               "values": [
+                0.0,
+                25.0
+               ]
+              }
+             ],
+             "impurity": 0.13875000000000004,
+             "name": "node371",
+             "rule": "Sweden < 0.5 ",
+             "values": [
+              3.0,
+              37.0
+             ]
+            },
+            {
+             "impurity": 0.13875000000000004,
+             "name": "node380",
+             "rule": "Sweden > 0.5 ",
+             "values": [
+              1.0,
+              0.0
+             ]
+            }
+           ],
+           "impurity": 0.17608566329565734,
+           "name": "node370",
+           "rule": "Czech Republic < 0.5 ",
+           "values": [
+            4.0,
+            37.0
+           ]
+          },
+          {
+           "impurity": 0.17608566329565734,
+           "name": "node381",
+           "rule": "Czech Republic > 0.5 ",
+           "values": [
+            1.0,
+            0.0
+           ]
+          }
+         ],
+         "impurity": 0.460223537146614,
+         "name": "node369",
+         "rule": "family_history >  0 ",
+         "values": [
+          5.0,
+          37.0
+         ]
+        }
+       ],
+       "impurity": 0.3590916018899558,
+       "name": "node343",
+       "rule": "United States < 0.5 ",
+       "values": [
+        19.0,
+        62.0
+       ]
+      },
+      {
+       "children": [
+        {
+         "children": [
+          {
+           "children": [
+            {
+             "children": [
+              {
+               "children": [
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node388",
+                   "rule": "TN < 0.5 ",
+                   "values": [
+                    0.0,
+                    52.0
+                   ]
+                  },
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node390",
+                     "rule": "Age < 28 ",
+                     "values": [
+                      1.0,
+                      0.0
+                     ]
+                    },
+                    {
+                     "impurity": 0.0,
+                     "name": "node391",
+                     "rule": "Age > 28 ",
+                     "values": [
+                      0.0,
+                      5.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.0,
+                   "name": "node389",
+                   "rule": "TN > 0.5 ",
+                   "values": [
+                    1.0,
+                    5.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.03388822829964333,
+                 "name": "node387",
+                 "rule": "WA < 0.5 ",
+                 "values": [
+                  1.0,
+                  57.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "impurity": 0.0,
+                   "name": "node393",
+                   "rule": "phys_health_consequence < -0.5 ",
+                   "values": [
+                    0.0,
+                    4.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.0,
+                   "name": "node394",
+                   "rule": "phys_health_consequence > -0.5 ",
+                   "values": [
+                    1.0,
+                    0.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.03388822829964333,
+                 "name": "node392",
+                 "rule": "WA > 0.5 ",
+                 "values": [
+                  1.0,
+                  4.0
+                 ]
+                }
+               ],
+               "impurity": 0.06147644242882333,
+               "name": "node386",
+               "rule": "seek_help < 0.5 ",
+               "values": [
+                2.0,
+                61.0
+               ]
+              },
+              {
+               "children": [
+                {
+                 "impurity": 0.0,
+                 "name": "node396",
+                 "rule": "family_history <  0 ",
+                 "values": [
+                  0.0,
+                  6.0
+                 ]
+                },
+                {
+                 "children": [
+                  {
+                   "children": [
+                    {
+                     "impurity": 0.0,
+                     "name": "node399",
+                     "rule": "coworkers < -0.5 ",
+                     "values": [
+                      0.0,
+                      1.0
+                     ]
+                    },
+                    {
+                     "children": [
+                      {
+                       "impurity": 0.0,
+                       "name": "node401",
+                       "rule": "no_employees < 2.5 ",
+                       "values": [
+                        0.0,
+                        1.0
+                       ]
+                      },
+                      {
+                       "impurity": 0.0,
+                       "name": "node402",
+                       "rule": "no_employees > 2.5 ",
+                       "values": [
+                        5.0,
+                        0.0
+                       ]
+                      }
+                     ],
+                     "impurity": 0.0,
+                     "name": "node400",
+                     "rule": "coworkers > -0.5 ",
+                     "values": [
+                      5.0,
+                      1.0
+                     ]
+                    }
+                   ],
+                   "impurity": 0.40816326530612246,
+                   "name": "node398",
+                   "rule": "leave < 0.17 ",
+                   "values": [
+                    5.0,
+                    2.0
+                   ]
+                  },
+                  {
+                   "impurity": 0.40816326530612246,
+                   "name": "node403",
+                   "rule": "leave > 0.17 ",
+                   "values": [
+                    0.0,
+                    4.0
+                   ]
+                  }
+                 ],
+                 "impurity": 0.0,
+                 "name": "node397",
+                 "rule": "family_history >  0 ",
+                 "values": [
+                  5.0,
+                  6.0
+                 ]
+                }
+               ],
+               "impurity": 0.06147644242882333,
+               "name": "node395",
+               "rule": "seek_help > 0.5 ",
+               "values": [
+                5.0,
+                12.0
+               ]
+              }
+             ],
+             "impurity": 0.15968749999999998,
+             "name": "node385",
+             "rule": "UT < 0.5 ",
+             "values": [
+              7.0,
+              73.0
+             ]
+            },
+            {
+             "impurity": 0.15968749999999998,
+             "name": "node404",
+             "rule": "UT > 0.5 ",
+             "values": [
+              1.0,
+              0.0
+             ]
+            }
+           ],
+           "impurity": 0.17802164304221912,
+           "name": "node384",
+           "rule": "MI < 0.5 ",
+           "values": [
+            8.0,
+            73.0
+           ]
+          },
+          {
+           "impurity": 0.17802164304221912,
+           "name": "node405",
+           "rule": "MI > 0.5 ",
+           "values": [
+            1.0,
+            0.0
+           ]
+          }
+         ],
+         "impurity": 0.19541939321832247,
+         "name": "node383",
+         "rule": "anonymity < 0.5 ",
+         "values": [
+          9.0,
+          73.0
+         ]
+        },
+        {
+         "children": [
+          {
+           "impurity": 0.0,
+           "name": "node407",
+           "rule": "WI < 0.5 ",
+           "values": [
+            0.0,
+            91.0
+           ]
+          },
+          {
+           "children": [
+            {
+             "impurity": 0.0,
+             "name": "node409",
+             "rule": "leave < 0.67 ",
+             "values": [
+              0.0,
+              3.0
+             ]
+            },
+            {
+             "impurity": 0.0,
+             "name": "node410",
+             "rule": "leave > 0.67 ",
+             "values": [
+              1.0,
+              0.0
+             ]
+            }
+           ],
+           "impurity": 0.0,
+           "name": "node408",
+           "rule": "WI > 0.5 ",
+           "values": [
+            1.0,
+            3.0
+           ]
+          }
+         ],
+         "impurity": 0.19541939321832247,
+         "name": "node406",
+         "rule": "anonymity > 0.5 ",
+         "values": [
+          1.0,
+          94.0
+         ]
+        }
+       ],
+       "impurity": 0.3590916018899558,
+       "name": "node382",
+       "rule": "United States > 0.5 ",
+       "values": [
+        10.0,
+        167.0
+       ]
+      }
+     ],
+     "impurity": 0.4049967126890204,
+     "name": "node342",
+     "rule": "care_options > 0.5 ",
+     "values": [
+      29.0,
+      229.0
+     ]
+    }
+   ],
+   "impurity": 0.3648,
+   "name": "node166",
+   "rule": "work_interfere > 0.17 ",
+   "values": [
+    128.0,
+    481.0
+   ]
+  }
+ ],
+ "class_names": [
+  "No treatment",
+  "treatment"
+ ],
+ "name": "node0",
+ "rule": "root",
+ "values": [
+  622.0,
+  637.0
+ ]
+}
