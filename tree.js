@@ -147,12 +147,14 @@ var plot_tree = function(data, chart){
             .enter();
         histogram.append('rect')
             .attr('x', function(d, i) {return -total_width/2 + i * bar_width;})
-            .attr('y', function(d) {return bar_height - d * bar_height/max_value})
+            .attr('y', function(d) {
+                return 10 + bar_height - d * bar_height/max_value})
             .attr('width', 0.9 * bar_width)
             .attr('height', function(d) {return d * bar_height/max_value})
             .attr('fill', function(d, i) {return legend_colors(i)});
     };
 
+    // draw tree and add the mouse events to the tree
     var link = draw_tree(nodes);
     
     link.on("mouseover", function (d) {
@@ -165,7 +167,8 @@ var plot_tree = function(data, chart){
             var path = d3.select(this).transition().duration("4000");
             svg.selectAll('.rule.rule').remove();
             });
-    
+   
+    // legend
     var rect_width = 20;
     var max_value = Math.max(...nodes.data.values);
     

@@ -15,11 +15,20 @@
         text-align: center;
     }
 
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        text-align: block;
+    }
+
     h2 {
         text-align: center;
     }
 
     .chart {
+        margin-left: auto;
+        margin-right: auto;
         width: 800px;
         height: 600px;
         padding: 10px;
@@ -31,9 +40,25 @@
 
 <body>
 <h1>Decision Trees</h1>
+<p>
+Decision trees are a popular algorithm that allows to identify simple rules
+that allow to identify the class of items in a dataset. The decision paths that
+are formed by the sequential application of these rules, form a so-called
+decision tree, that unmixes the element that are in the dataset.</p>
+<p>
+We show here decision trees that were generated using the python library
+scikit-learn and the visualization framework d3.js. On toop of the tree, in
+the root node, the items from all classes in the dataset are mixed. As more
+rules are applied, and the tree branches out to the bottom, the classes are
+better and better unmixed.
+</p>
+<p>
+Hovering with the mouse over the paths allows to see the rules that were
+applied to unmix certain classes.
+</p>
 <h2>Dataset 1: IRIS</h2>
 <div id="chart1" class="chart"></div>
-<h2>Dataset 2: Mental Health Dataset from Kaggle</h2>
+<h2>Dataset 2: Mental Health Dataset</h2>
 <div id="chart2" class="chart"></div>
 <h2>Dataset 3: Mushroom Dataset</h2>
 <div id="chart3" class="chart"></div>
