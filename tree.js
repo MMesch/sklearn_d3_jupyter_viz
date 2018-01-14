@@ -22,7 +22,7 @@ var plot_tree = function(data, chart){
     nodes = treemap(nodes);
     var n_classes = nodes.descendants().slice(1)[0].data.values.length;
     var n_samples = nodes.data.values.reduce(add, 0);
-    var path_width = 40;
+    var hue_scale = d3.scaleLinear().domain([0, n_classes]).range([0, 360]);
 
     function add(a, b) {return a + b;};
     function purity(values){return Math.max(...values)/values.reduce(add, 0);};
@@ -40,9 +40,6 @@ var plot_tree = function(data, chart){
         };
         return maxIndex;
     };
-    
-    var hue_scale = d3.scaleLinear().domain([0, n_classes]).range([0, 360]);
-    
     function get_link_color(values){
         var hue = (hue_scale(indexOfMax(values)) + 30)%360;
         var saturation = 100*purity(values);
@@ -50,25 +47,26 @@ var plot_tree = function(data, chart){
         var color = d3.hcl(hue, saturation, lightness);
         return color;
     };
-    
-    svg.append("svg:defs").selectAll("marker")
-        .data(nodes.descendants().slice(1).reverse())
-      .enter().append("svg:marker")
-        .attr("id", function(d, i) { return "arrow" + i; }) 
-        .attr("viewBox", "0 -5 10 10")
-        .attr("refX", 0)
-        .attr("refY", 0)
-        .attr("markerWidth", 4)
-        .attr("markerHeight", 4)
-        .attr("orient", 90)
-      .append("svg:path")
-        .attr("d", "M0,-3L4,0L0,3")
-        .attr("style", function (d) {return "fill:" + get_link_color(d.data.values) + ";";});
+    function getBB(selection) {
+        selection.each(function(d){d.bbox = this.getBBox();})
+    };
+    function legend_colors(i){
+        var values = [0, 0, 0];
+        values[i] = 1;
+        return get_link_color(values);
+    };
+    function path_width(values){
+        var path_width = 20;
+        return values.reduce(add,0)*path_width/n_samples;
+    }; 
 
-    function draw_links(){
-        var link = svg.selectAll('.link')
+    // this function draws all tree paths and arrows
+    function draw_tree(nodes){
+        var graph = svg.append('g').attr('id', 'graph');
+        var link = graph.selectAll('.g')
             .data(nodes.descendants().slice(1).reverse())
-          .enter().append("path")
+          .enter().append('g')
+        var paths = link.append("path")
             .attr("class", "link")
             .attr("d", function(d) {
                return "M" + d.x + "," + d.y
@@ -76,28 +74,34 @@ var plot_tree = function(data, chart){
                  + " " + d.parent.x + "," +  (d.y + d.parent.y) / 2
                  + " " + d.parent.x + "," + d.parent.y;
                })
+            .attr('stroke-linecap', 'round')
             .attr('style', function(d) {return 'fill:None;stroke:'
                 + get_link_color(d.data.values) + ';stroke-width:' 
-                    + d.data.values.reduce(add,0)*path_width/n_samples + ';'})
-            .attr("marker-start", function(d, i) { return "url(#arrow" + i + ")"; });
+                    + path_width(d.data.values) + ';'});
+
+        var arrows = link.filter(function (d) {
+            return path_width(d.data.values) > 1;}).append("path")
+            .attr('class', 'arrowhead')
+            .attr('stroke-linecap', 'round')
+            .attr("d", function(d) {
+                width = path_width(d.data.values);
+                return "M" + (d.x - width/1.5) + "," + d.y
+                  + "L" + d.x + "," + (d.y + width)
+                  + "L" + (d.x + width/1.5) + "," + d.y;})
+            .style("fill", function (d) {
+                return get_link_color(d.data.values);})
+            .style('stroke', 'white')
+            .style('stroke-width', function(d){
+               return path_width(d.data.values)/5});
         return link;
     };
-    
-    var link = draw_links();
-    function getBB(selection) {selection.each(function(d){d.bbox = this.getBBox();})}
-    
-        
-    function legend_colors(i){
-        var values = [0, 0, 0];
-        values[i] = 1;
-        return get_link_color(values);
-    }
     
     function draw_rules(nodes){
         var node = svg.selectAll(".rule").data(nodes)
           .enter().append("g")
             .attr('class', 'rule')
-            .attr('transform', function(d) {return "translate(" + d.x + "," + d.y + ")";});
+            .attr('transform', function(d) {
+                return "translate(" + d.x + "," + d.y + ")";});
         
         var path_nodes = node.filter(function (d, i) { return i > 0;});
         path_nodes.append("text")
@@ -131,7 +135,6 @@ var plot_tree = function(data, chart){
             .attr('pointer-events', 'none')
             .style('opacity', 0.8);
     
-//         alert(Object.keys(nodes[0]));
         var total_width = 100;
         var bar_width = total_width / n_classes;
         var bar_height = 20;
@@ -147,6 +150,8 @@ var plot_tree = function(data, chart){
             .attr('height', function(d) {return d * bar_height/max_value})
             .attr('fill', function(d, i) {return legend_colors(i)});
     };
+
+    var link = draw_tree(nodes);
     
     link.on("mouseover", function (d) {
             var path = d3.select(this);
@@ -158,12 +163,12 @@ var plot_tree = function(data, chart){
             var path = d3.select(this).transition().duration("4000");
             svg.selectAll('.rule.rule').remove();
             });
-
     
     var rect_width = 20;
     var max_value = Math.max(...nodes.data.values);
     
-    var legend = svg.selectAll('.rect')
+    var legend = svg.append('g').attr('id', 'legend')
+        .selectAll('.rect')
         .data(nodes.data.class_names)
         .enter();
     
@@ -176,11 +181,12 @@ var plot_tree = function(data, chart){
         .attr('fill', function(d, i) {return legend_colors(i);});
     
     legend.insert('text')
-        .attr('x', 0)
+        .attr('x', 2)
         .attr('y', function(d, i) {return i*(1.1 * rect_width);})
         .attr('dy', rect_width/2 + 4)
         .text(function(d, i) {return nodes.data.values[i];})
         .style('fill', 'black')
+        .attr('font-size', '12')
         .style('text-anchor', "left");
     
     legend.insert('text')
@@ -190,5 +196,6 @@ var plot_tree = function(data, chart){
         .attr('dy', rect_width/2 + 4)
         .text(function(d) {return d;})
         .style('fill', 'black')
+        .attr('font-size', '12')
         .style('text-anchor', "left");
 };
