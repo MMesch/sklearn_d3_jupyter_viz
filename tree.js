@@ -1,4 +1,4 @@
-var plot_tree = function(data, chart){
+function plot_tree(d3, data, chart){
     // set some layout variables
     var positionInfo = chart.getBoundingClientRect();
     var el_height = positionInfo.height;
